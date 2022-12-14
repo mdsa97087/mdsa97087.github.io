@@ -1,0 +1,43 @@
+.footer2div{
+      /* border: 2px solid blue; */
+      display: flex;
+      flex-wrap: wrap;
+      flex: 1 1 350px;
+      height: 250px;
+      padding-left: 10px;
+      
+}
+.footercontact3{
+      /* border: 1px solid  blue; */
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      text-decoration: none;
+      margin-top: 10px;
+}
+
+.FooterLink{
+      /* border: 1px solid red; */
+      display: flex;
+      text-decoration: none;
+      color: white;
+      font-size: 1.1rem;
+      margin-top: 8px;
+      gap: 20px;
+      align-items: center;
+} 
+.footerSocialMedia{
+      /* border: 2px solid green; */
+      height: 100px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      /* margin: 15px; */
+      align-items: center;
+}
+.aDivFooter > a {
+      /* border: 2px solid; */
+      /* gap: 50px; */
+      margin-right: 20px;
+      
+} 

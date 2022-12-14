@@ -1,0 +1,35 @@
+.addressgamil {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 50px;
+}
+
+.acontact {
+      text-decoration: none;
+}
+
+.sendsms {
+      /* border: 1px solid; */
+      display: flex;
+      flex-wrap: wrap;
+      width: auto;
+      justify-content: space-around;
+      gap: 30px;
+}
+
+.sendtext {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+}
+
+
+.contactinput {
+      border-radius: 8px;
+      padding: 15px;
+      font-size: 1.2rem;
+      height: 50px;
+      border: 2px solid;
+}

@@ -1,0 +1,132 @@
+* {
+      padding: 0%;
+      margin: 0%;
+      text-decoration: none;
+}
+
+.allnavbar {
+      width: 100%;
+      background-color: #290001;
+      top: 0px;
+      position: fixed;
+      z-index: 999;
+      display: flex;
+      flex-wrap: wrap;
+
+}
+
+.nav202 {
+      background-color: rgb(41, 0, 1);
+      /* border: 1px solid red; */
+      height: 75px;
+      width: 85vw;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: auto;
+      align-items: center;
+      font-size: 1.5rem;
+
+}
+
+.shamshad {
+      font-weight: bold;
+      background-color: #290001;
+
+
+
+}
+
+.Link2 {
+      background-color: #290001;
+      color: wheat;
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+
+}
+
+.Link2:hover{
+      /* color: green; */
+      box-shadow: rgb(196, 211, 226) 0px 20px 30px -15px;
+
+}
+
+
+.nav2 {
+      background-color: #290001;
+      /* border: 1px solid forestgreen; */
+      display: flex;
+      width: 65%;
+      justify-content: space-between;
+      font-size: 1.2rem;
+
+}
+
+
+
+/*          ```````           FOR RESPONSIVE NAVBAR         ---- */
+
+#fa1 {
+      display: none;
+}
+
+#offcanvasExample {
+      /* border: 2px solid blue; */
+      width: 150px;
+      height: 350px;
+      background-color: rgba(41, 39, 0, 0.226);
+      z-index: 9999;
+
+}
+
+.offcanvas-header {
+      height: 75px;
+      font-size: 1.5rem;
+}
+
+.responseNavbar {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 15px;
+      gap: 20px;
+}
+
+/* .a21 {
+      background-color: #290001;
+      color: wheat;
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+      gap: 20px;
+
+} */
+
+
+@media screen and (max-width: 1000px) {
+      #fa1 {
+            display: contents;
+            display: flex;
+            justify-content: right;
+            align-items: right;
+            background-color: #290001;
+
+      }
+
+      .nav2 {
+            display: none;
+      }
+
+      .nav202 {
+            /* border: 1px solid yellowgreen; */
+            width: 95vw;
+      }
+
+}
+
+
+
+
+/*    --------          Active Navbar --------         */
+
+#home{
+      color: rgb(0, 255, 21);
+}

@@ -1,0 +1,16 @@
+.resumeDiv {
+      /* border: 2px solid gray; */
+      display: flex;
+      flex-wrap: wrap;
+      gap: 50px;
+      justify-content: space-around;
+      text-align: left;
+}
+
+.resume-wrap {
+      /* border: 1px solid red; */
+      width: 400px;
+      box-shadow: rgb(38, 57, 77) 0px 20px 30px -15px;
+      padding: 25px;
+      
+}
