@@ -77,6 +77,10 @@ function Contact() {
             }}
           >
             <img
+            style={{
+              // border:"1px solid ",
+              borderRadius:'10%'
+            }}
               src="https://i.imgur.com/7FDvjDG.png
               "
               alt=""

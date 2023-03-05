@@ -11,13 +11,13 @@ function Project() {
       h1: "Movie",
       details:
         "A Fully Responsive Movie Booking website and Work All Pages like Movie Booking website,built with HTML, CSS, JavaScript, OmdbApi,Bootstrap.",
-      a1: "https://github.com/mdsa97087/Movie-Booking-Website/tree/main/BootStarpproject",
-      a2: "https://movie-website-clone97.netlify.app/index.html",
+      a1: "https://github.com/mdsa97087/Movie-Booking/tree/main/BootStarpproject",
+      a2: "https://friendly-gelato-a5eb98.netlify.app/",
       p1: "HTML",
       p2: "CSS",
       p3: "JavaScript",
       p4: "Bootstrap",
-      p5:'Netlify'
+      p5: "Netlify",
     },
     {
       id: 2,
@@ -33,8 +33,7 @@ function Project() {
       p2: "CSS",
       p3: "React",
       p4: "Chakra UI",
-      p5:'Vercel'
-
+      p5: "Vercel",
     },
     {
       id: 3,
@@ -50,8 +49,7 @@ function Project() {
       p2: "CSS",
       p3: "JavaScript",
       p4: "Bootstrap",
-      p5:'Netlify'
-
+      p5: "Netlify",
     },
     {
       id: 4,
@@ -67,8 +65,7 @@ function Project() {
       p2: "CSS",
       p3: "JavaScript",
       p4: "Bootstrap",
-      p5:'Netlify'
-
+      p5: "Netlify",
     },
     {
       id: 5,
@@ -84,8 +81,7 @@ function Project() {
       p2: "CSS",
       p3: "React",
       p4: "Weather API",
-      p5:'Vercel'
-
+      p5: "Vercel",
     },
   ];
 
@@ -97,7 +93,21 @@ function Project() {
         <div className="project2div">
           {/*           ----------------MAP                  */}
           {ProjectList.map(
-            ({ id, src1, src2, src3, h1, details, a1, a2, p1, p2, p3, p4,p5 }) => (
+            ({
+              id,
+              src1,
+              src2,
+              src3,
+              h1,
+              details,
+              a1,
+              a2,
+              p1,
+              p2,
+              p3,
+              p4,
+              p5,
+            }) => (
               <div className="projectdivMiddle">
                 <div className="project-imgDiv">
                   <div
@@ -148,7 +158,6 @@ function Project() {
                   <span className="span">{p3}</span>
                   <span className="span">{p4}</span>
                   <span className="span">{p5}</span>
-
                 </div>
               </div>
             )
