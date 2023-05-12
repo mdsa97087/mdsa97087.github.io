@@ -7,7 +7,7 @@ function ResumeDownload() {
       <div className="resumeDownload">
         <a
           className="aresumeDownload"
-          href="https://drive.google.com/uc?export=download&id=13NHazaW-l19ioTSL0DOBTe-0zq02p78U"
+          href="https://drive.google.com/file/d/1X_yFbZStIKTo1oeeiJuuXQC-kEIcDnaI/view?usp=share_link"
           download
         >
           Download Resume

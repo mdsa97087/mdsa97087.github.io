@@ -56,7 +56,7 @@ function Contact() {
                 alt=""
                 width={"60px"}
               />
-              <h6>Gurugram Sector-37 , 122004</h6>
+              <h6>Jaipur, Amer</h6>
             </a>
           </div>
         </div>

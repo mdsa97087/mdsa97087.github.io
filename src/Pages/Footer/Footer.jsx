@@ -104,7 +104,7 @@ function Footer() {
                 width={"25px"}
                 height="25px"
               />
-              <h6>Gurugram Sector-37 , 122004</h6>
+              <h6>Jaipur, Amer 302028</h6>
             </div>
             <div className="footercontact3">
               <a className="footercontact3" href="mailto:mdsa97087@gmail.com">

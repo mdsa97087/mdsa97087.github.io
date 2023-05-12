@@ -33,10 +33,10 @@ function About() {
               <span>Date of birth:</span> <span>January 25, 2001</span>
             </li>
             <li className="dd-flex">
-              <span>Address:</span> <span>Gurugram Sector-37</span>
+              <span>Address:</span> <span>Jaipur, Amer</span>
             </li>
             <li className="dd-flex">
-              <span>Pin code:</span> <span>122004</span>
+              <span>Pin code:</span> <span>302028</span>
             </li>
             <li className="dd-flex">
               <span>Email:</span> <span>mdsa97087@gmail.com</span>
